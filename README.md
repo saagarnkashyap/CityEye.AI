@@ -26,7 +26,7 @@ Trained with YOLOv11, this project turns *raw street video* into *intelligent de
 ### 🎞️ Demo Preview
 
 <p align="center">
-  <img src="[media/preview.gif](https://github.com/saagarnkashyap/CityEye.AI/blob/main/InShot_20250520_232839379.gif)" width="90%" alt="CityEye.AI demo preview"/>
+  <img src="InShot_20250520_232839379.gif" width="60%" alt="CityEye.AI demo preview"/>
 </p>
 
 ---
@@ -48,4 +48,40 @@ Trained with YOLOv11, this project turns *raw street video* into *intelligent de
 ```bash
 git clone https://github.com/saagarnkashyap/CityEye.AI.git
 cd CityEye.AI
->>>>>>> 2333c9602b870773b4f4bf6459f97c75d71eec2c
+```
+
+2. **Create a Virtual Environment**
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3.  **Install Required Packages**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Download the YOLOv11 Model**
+Make sure the yolo11n.pt file exists in the project directory.
+If not present, use this command below in the terminal
+```bash
+yolo download model=yolo11n
+```
+
+5. **Run Object Detection on Your Video**
+```bash
+from ultralytics import YOLO
+model = YOLO("yolo11n.pt")
+results = model.predict(source="input_video.mp4", save=True, conf=0.25)
+```
+considering **input_video.mp4** your input video.
+
+
+Thank you,
+Mail me at saagarcourses@gmail.com for suggestions.
+
