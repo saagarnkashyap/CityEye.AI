@@ -27,7 +27,7 @@ Trained with YOLOv11, this project turns *raw street video* into *intelligent de
 ### 🎞️ Demo Preview
 
 <p align="center">
-  <img src="media/preview.gif" width="90%" alt="CityEye.AI demo preview"/>
+  <img src="[media/preview.gif](https://github.com/saagarnkashyap/CityEye.AI/blob/main/InShot_20250520_232839379.gif)" width="90%" alt="CityEye.AI demo preview"/>
 </p>
 
 ---
