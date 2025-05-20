@@ -26,9 +26,10 @@ Trained with YOLOv11, this project turns *raw street video* into *intelligent de
 ### 🎞️ Demo Preview
 
 <p align="center">
-  <img src="InShot_20250520_232839379.gif" width="60%" alt="CityEye.AI demo preview"/>
+  <img src="InShot_20250520_232839379.gif" width="30%" alt="CityEye.AI demo preview"/>
 </p>
 
+>Video posted on Linkedin https://www.linkedin.com/in/saagar-n-kashyap-7231ab206/
 ---
 
 ### ⚙️ Tech Stack
@@ -38,7 +39,7 @@ Trained with YOLOv11, this project turns *raw street video* into *intelligent de
 | **YOLOv11**  | Object Detection (Ultralytics) |
 | **Python 3.11** | Programming Language       |
 | **OpenCV**   | Video I/O and Frame Processing |
-| **FFmpeg**   | Video Conversion (optional)  |
+| **FFmpeg**   | Video Conversion   |
 
 ---
 
@@ -79,7 +80,7 @@ from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 results = model.predict(source="input_video.mp4", save=True, conf=0.25)
 ```
-considering **input_video.mp4** your input video.
+>considering **input_video.mp4** your input video.
 
 
 Thank you,
