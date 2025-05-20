@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# CityEye.AI - Traffic-Detection
+Traffic Detection using YOLOv11
+=======
 # 🚦 CityEye.AI — Smart Traffic Object Detection with YOLOv11
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
@@ -45,3 +49,4 @@ Trained with YOLOv11, this project turns *raw street video* into *intelligent de
 ```bash
 git clone https://github.com/saagarnkashyap/CityEye.AI.git
 cd CityEye.AI
+>>>>>>> 2333c9602b870773b4f4bf6459f97c75d71eec2c
