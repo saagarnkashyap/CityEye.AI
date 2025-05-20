@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CityEye.AI - Traffic-Detection
 Traffic Detection using YOLOv11
 =======
