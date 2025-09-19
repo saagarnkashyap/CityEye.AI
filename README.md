@@ -81,6 +81,7 @@ results = model.predict(source="input_video.mp4", save=True, conf=0.25)
 
 
 Thank you,
-Mail me at @saagarcourses@gmail.com for suggestions.
+Mail me at saagarcourses@gmail.com for suggestions.
+
 
 
